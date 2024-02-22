@@ -235,6 +235,23 @@ p {
 }
 
 /* Navbar */
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.progress-bar {
+  transition: width 0.3s ease;
+}
+
+.bg-warning {
+  --bs-bg-opacity: 1;
+  background-color: var(--ps-jaune1) !important;
+}
+
 .navbar {
   background-color: white;
   padding: 1rem 2rem;
