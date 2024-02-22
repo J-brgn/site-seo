@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- SEO -->
+    <title>Site</title>
+    <meta name="description" content="Découvrez les fondamentaux du webdesign, du référencement SEO et de la rédaction de contenu pour booster la présence en ligne de votre entreprise. Obtenez des conseils pratiques et des stratégies efficaces pour optimiser votre site web et attirer plus de visiteurs qualifiés.">
+    <meta name="keywords" content="webdesign, référencement SEO, rédaction de contenu, optimisation SEO, présence en ligne, entreprise, formation en ligne">
+    <!-- CSS -->
+    <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="images/favicon-64x64.png" sizes="64x64" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preload" href="images/carousel1.webp" as="image">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">A propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+    <!-- Formulaire Rechercher -->
+    <form class="d-flex">
+      <input class="form-control me-2" name="searchForm" type="text" placeholder="Rechercher" aria-label="Rechercher">
+      <button class="btn btn-outline-success" type="submit">Go</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron animate__animated animate__fadeIn">
+  <h1 class="display-4 animate__animated animate__backInDown">Bienvenue sur notre site !</h1>
+  <p class="lead">Nous vous offrons de nombreux services pour optimiser votre présence en ligne.</p>
+  <hr class="my-4">
+  <p>Consultez nos derniers articles et contactez-nous pour plus d'informations.</p>
+  <a class="btn btn-primary animate__animated animate__zoomIn" href="#" role="button">En savoir plus</a>
+</div>
+
+<!-- Carousel -->
+<div id="carouselExampleControls" class="carousel slide animate__animated animate__fadeIn" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/carousel1.webp" class="d-block w-100" alt="Illustration SEO bureau de travail mur blanc avec lampe et écran" width="1652" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousel2.webp" class="d-block w-100" alt="Illustration SEO bureau de travail avec écrans" width="1652" height="500" loading="lazy">
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousel3.webp" class="d-block w-100" alt="Illustration SEO bureau de travail gourde et écran" width="1652" height="500" loading="lazy">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Précédent</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Suivant</span>
+  </button>
+</div>
+
+<!-- Section Services -->
+<section id="services" class="bg-light animate__animated animate__fadeIn">
+  <div class="container">
+    <h2 class="text-center">Nos Services</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card animate__animated hidden">
+          <div class="card-body">
+            <h5 class="card-title">Service n°1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn btn-primary">Cliquer ici</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card animate__animated hidden">
+          <div class="card-body">
+            <h5 class="card-title">Service n°2</h5>
+            <p class="card-text">Nulla ultrices nunc a sollicitudin <span class="tool" data-bs-toggle="tooltip" data-bs-placement="bottom"
+              data-bs-custom-class="custom-tooltip" data-bs-title="Lorem Ipsum">consequar</span>. Aenean pellentesque non sem a dignissim.
+            </p>
+            <a href="#" class="btn btn-primary">Cliquer ici</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card animate__animated hidden">
+          <div class="card-body">
+            <h5 class="card-title">Service n°3</h5>
+            <p class="card-text">Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut.</p>
+            <a href="#" class="btn btn-primary">Cliquer ici</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section A-propos -->
+<section id="about" class="animate__animated animate__fadeIn">
+  <div class="container">
+    <h2 class="text-center">A propos de nous</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/team.webp" class="img-fluid hidden animate__animated" alt="Illustration de la rubrique à propos réunion de travail avec émulation d'idées" width="636" height="382.59" loading="lazy">
+      </div>
+      <div class="col-md-6">
+        <p class="about-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim. Nam a orci a est laoreet pellentesque quis ut lacus. Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut. Vivamus finibus imperdiet lobortis. Morbi interdum condimentum ex a lobortis. Ut pharetra justo eros, eu sagittis nisl luctus nec.
+          <br><br>
+          Fusce sed lorem quis justo malesuada porttitor sit amet et lorem. Proin auctor suscipit gravida. Nullam facilisis, est eu tempor dictum, ipsum sapien feugiat justo, at viverra erat dolor non tortor. Donec vitae ex quis lorem mattis varius sit amet in purus. Vivamus faucibus mattis tortor nec laoreet. Vestibulum cursus malesuada porttitor. Ut iaculis ex vehicula quam accumsan ultrices. Ut tempor leo nec justo venenatis, ut pellentesque ipsum tempus.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Conseils SEO et Rédaction de Contenu -->
+<section id="seo-content" class="bg-light animate__animated animate__fadeIn">
+  <div class="container">
+    <h1 class="text-center animate__animated animate__fadeIn">Titre de l'article</h1>
+    
+    <h2>Introduction</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim. Nam a orci a est laoreet pellentesque quis ut lacus. Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut. Vivamus finibus imperdiet lobortis. Morbi interdum condimentum ex a lobortis. Ut pharetra justo eros, eu sagittis nisl luctus nec.
+      <br><br>
+      Fusce sed lorem quis justo malesuada porttitor sit amet et lorem. Proin auctor <a href="#" target="_blank">suscipit gravida <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+      </svg></a>. Nullam facilisis, est eu tempor dictum, ipsum sapien feugiat justo, at viverra erat dolor non tortor. Donec vitae ex quis lorem mattis varius sit amet in purus. Vivamus faucibus mattis tortor nec laoreet. Vestibulum cursus malesuada porttitor. Ut iaculis ex vehicula quam accumsan ultrices. Ut tempor leo nec justo venenatis, ut pellentesque ipsum tempus.
+    </p>
+    
+    <h2>1. Titre de niveau 1</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim. Nam a orci a est laoreet pellentesque quis ut lacus. Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut. Vivamus finibus imperdiet lobortis. Morbi interdum condimentum ex a lobortis. Ut pharetra justo eros, eu sagittis nisl luctus nec.
+    </p>
+    
+    <h3>1.1 Titre de niveau 2</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim. Nam a orci a est laoreet pellentesque quis ut lacus. Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut. Vivamus finibus imperdiet lobortis. Morbi interdum condimentum ex a lobortis. Ut pharetra justo eros, eu sagittis nisl luctus nec.
+    </p>
+    
+    <h2>2. Titre de niveau 1</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim. Nam a orci a est laoreet pellentesque quis ut lacus. Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut. Vivamus finibus imperdiet lobortis. Morbi interdum condimentum ex a lobortis. Ut pharetra justo eros, eu sagittis nisl luctus nec.
+    </p>
+    
+    <blockquote>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim."</p>
+      <footer>— Auteur de la citation</footer>
+    </blockquote>
+    
+    <h2>3. Titre de niveau 1</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim. Nam a orci a est laoreet pellentesque quis ut lacus. Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut. Vivamus finibus imperdiet lobortis. Morbi interdum condimentum ex a lobortis. Ut pharetra justo eros, eu sagittis nisl luctus nec.
+    </p>
+    
+    <img src="images/illustration-seo.webp" alt="Illustration SEO cahier des charges conception du site" class="img-fluid mb-4 hidden animate__animated" width="1296" height="864"loading="lazy">
+    
+    <h2>4. Titre de niveau 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nunc a sollicitudin consequat. Aenean pellentesque non sem a dignissim. Nam a orci a est laoreet pellentesque quis ut lacus. Aenean tincidunt ipsum est, ut ullamcorper tortor elementum ut. Vivamus finibus imperdiet lobortis. Morbi interdum condimentum ex a lobortis. Ut pharetra justo eros, eu sagittis nisl luctus nec.</p>
+    <a tabindex="0" class="btn btn btn-primary" role="button" data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-trigger="focus" data-bs-title="Lorem Ipsum" data-bs-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">Bouton popover</a>
+    
+    <h2>Conclusion</h2>
+    <p>Fusce sed lorem quis justo malesuada porttitor sit amet et lorem. Proin auctor suscipit gravida. Nullam facilisis, est eu tempor dictum, ipsum sapien feugiat justo, at viverra erat dolor non tortor. Donec vitae ex quis lorem mattis varius sit amet in purus. Vivamus faucibus mattis tortor nec laoreet. Vestibulum cursus malesuada porttitor. Ut iaculis ex vehicula quam accumsan ultrices. Ut tempor leo nec justo venenatis, ut pellentesque ipsum tempus.</p>
+    
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Nulla ultrices nunc a sollicitudin consequat.</li>
+      <li>Aenean pellentesque non sem a dignissim.</li>
+    </ul>
+    
+    <ol>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Nulla ultrices nunc a sollicitudin consequat.</li>
+      <li>Aenean pellentesque non sem a dignissim.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="bg-light animate__animated animate__fadeIn">
+  <div class="container">
+    <h2 class="text-center">Nous contacter</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" class="form-control" id="name" placeholder="Votre nom" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Courriel</label>
+            <input type="email" class="form-control" id="email" placeholder="Votre adresse" autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary send-btn animate__animated animate__zoomIn">Envoyer</button>
+        </form>
+      </div>
+      <div class="col-md-6 coordonnees">
+        <h4>Nos coordonnées</h4>
+        <p>
+          <strong>Adresse :</strong> 123 rue de l'Innovation, Ville, Pays
+          <br>
+          <strong>Tél. :</strong> <a class="num" href="tel:+33 1 23 45 67 89" title="Appeler">+33 1 23 45 67 89</a>
+          <br>
+          <strong>Courriel :</strong> <a class="site" href="mailto:info@exemple.com" target="_blank">info@exemple.com</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-4 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="footer-contact">Nous contacter</h5>
+          <p><strong>Adresse :</strong> 123 rue de l'Innovation, Ville, Pays</p>
+          <p><strong>Tél. :</strong> <a class="num" href="tel:+33 1 23 45 67 89" title="Appeler">+33 1 23 45 67 89</a></p>
+          <p><strong>Courriel :</strong> <a class="site" href="mailto:info@exemple.com" target="_blank">info@exemple.com</a></p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-reseaux">Nous retrouver</h5>
+          <ul class="list-inline social-icons">
+            <li class="list-inline-item animate__animated animate__zoomIn"><a href="#" class="reseaux" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"><i class="bi bi-facebook"></i></a></li>
+            <li class="list-inline-item animate__animated animate__zoomIn"><a href="#" class="reseaux" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter-x"><i class="bi bi-twitter-x"></i></a></li>
+            <li class="list-inline-item animate__animated animate__zoomIn"><a href="#" class="reseaux" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"><i class="bi bi-instagram"></i></a></li>
+            <li class="list-inline-item animate__animated animate__zoomIn"><a href="#" class="reseaux" data-bs-toggle="tooltip" data-bs-placement="bottom" title="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="footer-newsletter">Vous abonner</h5>
+          <div class="footer-newsletter">
+            <form class="form-inline">
+                <div class="form-group mr-2">
+                    <input type="email" class="form-control" id="newsletterEmail" placeholder="Votre adresse">
+                </div>
+                <button type="submit" class="btn btn-primary recevoir animate__animated animate__zoomIn">Recevoir</button>
+            </form>
+        </div>
+        </div>
+      </div>
+      <br><hr>
+      <div class="row footer-foot">
+        <div class="col-md-3">
+          <p class="copyright">&copy; 2024 Site. Tous droits réservés.</p>
+        </div>
+        <div class="col-md-9">
+            <ul class="list-inline footer-links">
+                <li class="list-inline-item"><a href="#" class="footer-link">Conditions d'utilisation</a></li>
+                <li class="list-inline-item"><a href="#" class="footer-link">Mention légales</a></li>
+                <li class="list-inline-item"><a href="#" class="footer-link">Paramètres des cookies</a></li>
+                <li class="list-inline-item"><a href="#" class="footer-link">Navigation</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+<script src="script.js" defer></script>
+
+</body>
+</html>
